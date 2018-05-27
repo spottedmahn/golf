@@ -1,5 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -18,4 +19,8 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('My Golf App');
   }));
+  it('renders correctly', () =>{
+    const fixture = TestBed.createComponent(AppComponent);
+    expect(fixture).toMatchSnapshot();
+  });
 });
