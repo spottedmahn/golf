@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have as title 'My Golf App'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('My Golf App');
+    expect(app.title).toEqual('My Golf App break my tests test');
   }));
   it('renders correctly', () =>{
     const fixture = TestBed.createComponent(AppComponent);
