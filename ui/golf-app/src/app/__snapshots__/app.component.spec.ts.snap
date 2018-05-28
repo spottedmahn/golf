@@ -20,6 +20,11 @@ exports[`AppComponent renders correctly 1`] = `
   >
      My End to End CI/CD Test - This is so cool 😎👍🤩
   
+  </div><div
+    style="text-align:center"
+  >
+     Adding PWA Support - Version v1 is running...
+  
   </div>
 </app-root>
 `;
